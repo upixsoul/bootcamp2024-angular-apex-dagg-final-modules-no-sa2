@@ -10,10 +10,15 @@ import { Z3Component } from './z3/z3.component';
   declarations: [
     Z1Component,
     Z2Component,
-    Z3Component,
+    Z3Component
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    Z1Component,
+    Z2Component,
+    Z3Component
   ]
 })
 export class ZModule { }
